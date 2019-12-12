@@ -1,0 +1,29 @@
+{
+  "name": "clone",
+  "version": "1.0.0",
+  "description": "deep clone object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiqingfu/clone.git"
+  },
+  "keywords": [
+    "extend",
+    "object",
+    "clone"
+  ],
+  "author": "qiqingfu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiqingfu/clone/issues"
+  },
+  "homepage": "https://github.com/qiqingfu/clone#readme",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
+  }
+}
