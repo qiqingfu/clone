@@ -92,7 +92,7 @@ function setProperty(obj, options) {
 }
 
 
-export default function extend(...rest) {
+function extend(...rest) {
 
   let target;
   let options;
@@ -190,3 +190,5 @@ export default function extend(...rest) {
   return target;
 
 }
+
+module.exports = extend;
