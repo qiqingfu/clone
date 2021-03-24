@@ -91,7 +91,6 @@ function setProperty(obj, options) {
 
 }
 
-
 function extend(...rest) {
 
   let target;
@@ -103,7 +102,6 @@ function extend(...rest) {
   let isArr;
   let clone;
   let deep;
-
 
   const args = Array.prototype.slice.call(rest);
   const len = args.length;
